@@ -2,14 +2,13 @@
   "name": "tst100h",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "net": "^1.0.2"
-  }
+    "@azure/functions": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {},
+  "main": "src/functions/*.js"
 }

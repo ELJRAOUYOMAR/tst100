@@ -26,7 +26,7 @@ const server = net.createServer((socket) => {
         console.error('Socket error:', err);
     });
 });
-const adresse="35.223.217.106";
+const adresse="127.0.0.1";
 const port = 9000; 
 server.listen(port,adresse, () => {
     console.log(`Server listening on port ${port}`);
